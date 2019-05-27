@@ -11,6 +11,7 @@ class Song
     strings = file.split(" - ")
     song = Song.new(strings[1])
     song.artist.name = strings[1]
+    binding.pry
   end
 
 end
